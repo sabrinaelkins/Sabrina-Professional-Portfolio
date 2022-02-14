@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Github } from 'react-icons/';
-import img1 from '';
-import img2 from '';
-import img3 from '';
-import img4 from '';
+// import { Github } from 'react-icons/';
+// import img1 from '';
+// import img2 from '';
+// import img3 from '';
+// import img4 from '';
 // import img5 from '../../assets/images/img-5.webp';
 
 const Project = () => {
@@ -38,7 +38,7 @@ const Project = () => {
               </a>
               <a href={proj.gitHubRepo} target="_blank" rel="noopener noreferrer" className="forest green mx-2">
                 <h1>
-                  <Github />
+                  {/* <Github /> */}
                 </h1>
               </a>
             </Card.Title>

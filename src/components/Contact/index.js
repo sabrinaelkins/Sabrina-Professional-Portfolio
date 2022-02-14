@@ -40,7 +40,7 @@ function ContactForm() {
     <section className="">
       <div>
         <h1 className="page-title">Contact me</h1>
-        <a href="mailto:taylorkeltgen@gmail.com">taylorkeltgen@gmail.com</a>
+        <a href="mailto:sabrina.elkins12@gmail.com">sabrina.elkins12@gmail.com</a>
         <form id="contact-form" className="container my-5" onSubmit={handleSubmit}>
           <div className="form-group row">
             <label htmlFor="name" className="col-sm-2 col-form-label">

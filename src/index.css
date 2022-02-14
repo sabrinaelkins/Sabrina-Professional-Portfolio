@@ -1,11 +1,5 @@
 :root {
-    --pink: deeppink;
-    --secondary: rgb(49, 0, 128);
-    --gray: #1d1d1d;
-    --light: #fafafa;
-    --dark: #000000;
-    --darker: #111111;
-    --hilite: rgb(255, 196, 0);
+    
   }
   
   * {
@@ -14,13 +8,11 @@
     box-sizing: border-box;
     max-width: 100%;
   }
-  .pink {
-    color: deeppink;
+  .orange {
+    color: #ee9b00;
   }
   .page-title {
-    /* color: #02485f; */
-    color: #05ae5e;
-    /* color: #0863b9; */
+    color: #94d2bd;
   }
   
   .base {
@@ -30,7 +22,7 @@
     line-height: 1.5;
     font-size: 18px;
     letter-spacing: 0.1em;
-    background: var(--gray);
+    background: #001219;
     color: var(--light);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -43,7 +35,7 @@
     background-image: url('assets/0e39c256714a4b7c0299323a82701647.jpeg');
     background-size: cover;
     padding: 10%;
-    color: var(--green);
+    color: #005F73;
     font-size: 48px;
   }
   
@@ -65,7 +57,7 @@
     text-decoration: none;
   }
   .card-img-overlay a:hover {
-    color: rgb(122, 122, 122);
+    color: #e9d8a6;
   }
   .card-title {
     display: flex;

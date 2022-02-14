@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../assets/resume.txt';
+// import resume from '../../assets/resume.txt'
 
 const Resume = () => {
   return (
@@ -8,7 +8,7 @@ const Resume = () => {
         <h1 className="page-title">Resume</h1>
         <p>
           Download my{' '}
-          <a href={resume} download="SabrinaElkins_Resume">
+          <a href="" download="SabrinaElkins_Resume">
             resume
           </a>
         </p>
