@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import React, { Component } from 'react';
+import React from 'react';
 import { HashRouter , Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About'
@@ -10,8 +10,8 @@ import Project from './components/Project'
 import Resume from './components/Resume'
 
 
-class App extends Component{
-  render() {
+function App() {
+
   return (
     <div className='base'>
       <HashRouter basename='sabrina-professional-portfolio/'>
@@ -28,7 +28,6 @@ class App extends Component{
         </HashRouter>
         </div>
   );
-}
 }
 
 export default App;

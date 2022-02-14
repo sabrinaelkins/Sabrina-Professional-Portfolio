@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 // import img5 from '../../assets/images/img-5.webp';
 
 const Project = () => {
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       id: 1,
       title: 'Hotel Raven',
