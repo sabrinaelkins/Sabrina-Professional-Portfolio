@@ -11,36 +11,18 @@ const Project = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: 'Want To Buy',
-      description: 'Full Stack Group Project',
-      deployedUrl: 'https://want-to-buy.herokuapp.com/',
-      gitHubRepo: 'https://github.com/taylorkeltgen/want-to-buy',
-      image: img1,
-    },
-    {
-      id: 2,
       title: 'Hotel Raven',
       description: 'Front-end Group Project',
       deployedUrl: 'https://smashercoder.github.io/hotel-raven/',
-      gitHubRepo: 'https://github.com/SmasherCoder/hotel-raven',
-      image: img2,
+      gitHubRepo: 'https://github.com/SmasherCoder/hotel-raven'
     },
     {
-      id: 3,
-      title: 'Robot Gladiator',
-      description: 'Javascript Game',
-      deployedUrl: 'https://taylorkeltgen.github.io/robot-gladiators/',
-      gitHubRepo: 'https://github.com/taylorkeltgen/robot-gladiators',
-      image: img3,
-    },
-    {
-      id: 4,
-      title: 'Run Buddy',
-      description: 'HTML/CSS',
-      deployedUrl: 'https://taylorkeltgen.github.io/run-buddy/',
-      gitHubRepo: 'https://github.com/taylorkeltgen/run-buddy',
-      image: img4,
-    },
+      id: 2,
+      title: 'Rough Stock Rodeo',
+      description: 'Full Stack Group Project',
+      deployedUrl: 'https://rough-stock-rodeo.herokuapp.com/',
+      gitHubRepo: 'https://github.com/kanellakise/roughStockRodeo-Group7-Project2'
+    }
   ]);
 
   return (
