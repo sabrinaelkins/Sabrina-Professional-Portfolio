@@ -1,0 +1,73 @@
+:root {
+    --pink: deeppink;
+    --secondary: rgb(49, 0, 128);
+    --gray: #1d1d1d;
+    --light: #fafafa;
+    --dark: #000000;
+    --darker: #111111;
+    --hilite: rgb(255, 196, 0);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .pink {
+    color: deeppink;
+  }
+  .page-title {
+    /* color: #02485f; */
+    color: #05ae5e;
+    /* color: #0863b9; */
+  }
+  
+  .base {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    background: var(--gray);
+    color: var(--light);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* HERO BANNER */
+  .hero {
+    background-image: url('assets/0e39c256714a4b7c0299323a82701647.jpeg');
+    background-size: cover;
+    padding: 10%;
+    color: var(--green);
+    font-size: 48px;
+  }
+  
+  .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(27, 85, 209, 0.3);
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(5px);
+  }
+  .card-img-overlay:hover {
+    opacity: 1;
+  }
+  .card-img-overlay a {
+    color: white;
+    text-decoration: none;
+  }
+  .card-img-overlay a:hover {
+    color: rgb(122, 122, 122);
+  }
+  .card-title {
+    display: flex;
+    align-items: center;
+  }
