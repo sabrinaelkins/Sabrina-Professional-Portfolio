@@ -1,5 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { render } from '@testing-library/react';
+import React, { Component } from 'react';
+import { HashRouter , Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About'
 import Contact from './components/Contact'
@@ -9,11 +10,11 @@ import Project from './components/Project'
 import Resume from './components/Resume'
 
 
-function App() {
-
-  return ( 
-  <div className='base'>
-    <Router basename='sabrina-professional-portfolio/'>
+class App extends Component{
+  render() {
+  return (
+    <div className='base'>
+      <HashRouter basename='sabrina-professional-portfolio/'>
         <Header></Header>
         <main className='container my-5'>
           <Switch>
@@ -21,12 +22,13 @@ function App() {
             <Route path={"/project"} component={Project} />
             <Route path={"/contact"} component={Contact} />
             <Route path={"/resume"} component={Resume} />
-          </Switch>    
+          </Switch>
         </main>
         <Footer></Footer>
-    </Router>
-    </div>
-    )
+        </HashRouter>
+        </div>
+  );
+}
 }
 
 export default App;
