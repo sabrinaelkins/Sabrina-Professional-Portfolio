@@ -15,21 +15,7 @@
     color: #94d2bd;
   }
   
-  .base {
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    line-height: 1.5;
-    font-size: 18px;
-    letter-spacing: 0.1em;
-    background: #001219;
-    color: var(--light);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
+
   /* HERO BANNER */
   .hero {
     background-image: url('assets/0e39c256714a4b7c0299323a82701647.jpeg');

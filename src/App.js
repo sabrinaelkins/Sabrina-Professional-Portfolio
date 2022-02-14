@@ -11,9 +11,9 @@ import Resume from './components/Resume'
 
 function App() {
 
-  return (
-    <Router basename='react-to-my-portfolio/'>
-      <div className='base'>
+  return ( 
+  <div className='base'>
+    <Router basename='sabrina-professional-portfolio/'>
         <Header></Header>
         <main className='container my-5'>
           <Switch>
@@ -24,9 +24,9 @@ function App() {
           </Switch>    
         </main>
         <Footer></Footer>
-      </div>
     </Router>
-  )
+    </div>
+    )
 }
 
 export default App;
