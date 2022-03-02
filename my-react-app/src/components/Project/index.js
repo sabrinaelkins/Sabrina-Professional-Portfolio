@@ -21,7 +21,7 @@ const Project = () => {
       description: 'Full Stack Group Project',
       deployedUrl: 'https://rough-stock-rodeo.herokuapp.com/',
       gitHubRepo: 'https://github.com/kanellakise/roughStockRodeo-Group7-Project2'
-    }
+    },
     {
       id: 2,
       title: 'Marvelous',
