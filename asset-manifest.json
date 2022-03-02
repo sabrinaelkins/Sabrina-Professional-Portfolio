@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sabrinaelkins/create-react-app/static/css/main.64f0b2c0.css",
+    "main.js": "/sabrinaelkins/create-react-app/static/js/main.51cbc992.js",
+    "index.html": "/sabrinaelkins/create-react-app/index.html",
+    "main.64f0b2c0.css.map": "/sabrinaelkins/create-react-app/static/css/main.64f0b2c0.css.map",
+    "main.51cbc992.js.map": "/sabrinaelkins/create-react-app/static/js/main.51cbc992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64f0b2c0.css",
+    "static/js/main.51cbc992.js"
+  ]
+}
