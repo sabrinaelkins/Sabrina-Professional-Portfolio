@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
-import { Github } from 'react-icons/';
+// import { Github } from 'react-icons/';
 // import img1 from '';
 // import img2 from '';
 // import img3 from '';
@@ -21,14 +21,14 @@ const Project = () => {
       description: 'Full Stack Group Project',
       deployedUrl: 'https://rough-stock-rodeo.herokuapp.com/',
       gitHubRepo: 'https://github.com/kanellakise/roughStockRodeo-Group7-Project2'
-    }
+    },
     {
       id: 2,
       title: 'Marvelous',
       description: 'MERN Group Project',
       deployedUrl: 'https://marvelous-mern.herokuapp.com/',
       gitHubRepo: 'https://github.com/taylorkeltgen/marvelous'
-    }
+    },
   ]);
 
   return (
