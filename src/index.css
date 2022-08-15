@@ -13,10 +13,10 @@
 
   /* HERO BANNER */
   .hero {
-    background-image: url('assets/0e39c256714a4b7c0299323a82701647.jpeg');
+    background-image: url('src/assets/background.jpeg');
     background-size: cover;
     padding: 10%;
-    color: #005F73;
+    color: #dff75b;
     font-size: 48px;
   }
   
