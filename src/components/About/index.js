@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 function About() {
   return (
-    <section className="">
+    <section className="container">
       <h1 id="about" className="page-title">
         About Me
       </h1>

@@ -19,7 +19,7 @@
     color: #dff75b;
     font-size: 48px;
   }
-  
+
   .card-img-overlay {
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     color: white;
     text-decoration: none;
   }
-  .card-img-overlay a:hover {
+  .card-img-overlay:hover {
     color: #e9d8a6;
   }
   .card-title {

@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <Nav></Nav>
       <section className="hero">
-        <h1 style={{ color: 'Forest Green' }}>Sabrina Elkins</h1>
+        <h1 style={{ color: 'White'}}>Sabrina Elkins</h1>
       </section>
     </header>
   );

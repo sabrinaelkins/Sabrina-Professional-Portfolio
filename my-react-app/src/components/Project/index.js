@@ -39,12 +39,12 @@ const Project = () => {
           <Card.Img src={proj.image} alt="Card image" className="card-img" />
           <Card.ImgOverlay className="card-img-overlay">
             <Card.Title className="card-title">
-              <a href={proj.deployedUrl} target="_blank" rel="noopener noreferrer" className="forest green mx-2">
+              <a href={proj.deployedUrl} target="_blank" rel="noopener noreferrer" className="">
                 <h2>{proj.title}</h2>
               </a>
-              <a href={proj.gitHubRepo} target="_blank" rel="noopener noreferrer" className="forest green mx-2">
+              <a href={proj.gitHubRepo} target="_blank" rel="noopener noreferrer" className="">
                 <h1>
-                  {/* <Github /> */}
+                  <Github />
                 </h1>
               </a>
             </Card.Title>
